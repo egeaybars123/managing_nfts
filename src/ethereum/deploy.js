@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledSimpleCollectibleFactory = require("./build/SimpleCollectibleFactory.json");
 
 const provider = new HDWalletProvider(
-    "cram cinnamon moon off opera lumber transfer net fatal erupt sphere disagree",
-    "https://rinkeby.infura.io/v3/cc9bc45f1ddc40bca7e60a1b20a6fe4e"
+    "PRIVATE KEY",
+    "PROVIDER LINK"
 );
 
 const web3 = new Web3(provider);
